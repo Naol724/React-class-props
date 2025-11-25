@@ -1,16 +1,122 @@
-# React + Vite
+# React Class Components & Props – Mini Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a small React application built using **Vite**.  
+It demonstrates the fundamentals of **Class-Based Components**, **Props**, and **Component Reusability** in React.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Project Overview
 
-## React Compiler
+This mini-project helps you understand:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- How to create **Class Components** in React  
+- How to pass **props** from parent to child components  
+- How to organize components in a clean folder structure  
+- How to style components using an external CSS file  
+- How to render multiple components dynamically  
 
-## Expanding the ESLint configuration
+The project is simple, clean, and beginner-friendly — perfect for learning the basics of React (before Hooks).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Folder Structure
+
+```
+React-class-props
+│
+├── public
+│   └── vite.svg
+│
+├── src
+│   ├── components
+│   │   ├── StudentCard.jsx
+│   │   └── Header.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── style.css
+│
+├── .gitignore
+├── index.html
+├── package.json
+└── README.md
+```
+
+---
+
+## 🧩 Components Used
+
+### **1. App Component (Parent)**
+- Holds the main layout  
+- Passes props to `StudentCard`  
+- Imports the child components  
+
+### **2. StudentCard Component (Child)**
+- A **class-based component**  
+- Receives `name`, `age`, and `course` through props  
+- Displays student data  
+- Shows how props work in class components  
+
+### **3. Header Component**
+- A simple reusable header component  
+
+---
+
+## 🛠️ Built With
+
+- **React JS**
+- **Vite**
+- **Class-Based Components**
+- **Props**
+- **CSS Styling**
+
+---
+
+## 📸 Screenshots
+
+```
+![Project Screenshot](./src/Screenshot/image1.png)
+```
+```
+![Project Screenshot](./src/Screenshot/image2.png)
+```
+
+## ▶️ How to Run the Project
+
+```bash
+npm install
+npm run dev
+```
+
+Your app will run on:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📚 What You Will Learn
+
+- How React class components work  
+- How props make components reusable  
+- How to organize a clean React folder structure  
+- How to pass data from parent → child  
+- How to style components  
+
+---
+
+## 📬 Author
+
+**Naol Gonfa (Naol724)**  
+A passionate student learning Full Stack & Mobile App Development.
+
+GitHub: https://github.com/Naol724
+
+---
+
+## ⭐ If you like this project
+
+Please give it a **star** ⭐ on GitHub — it motivates the developer!
+
+
