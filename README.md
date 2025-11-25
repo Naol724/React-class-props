@@ -75,10 +75,10 @@ React-class-props
 ## 📸 Screenshots
 
 ```
-![Project Screenshot](./Screenshot/image1.png)
+![Project Screenshot](./images/image1.png)
 ```
 ```
-![Project Screenshot](./Screenshot/image2.png)
+![Project Screenshot](./images/image2.png)
 ```
 
 ## ▶️ How to Run the Project
