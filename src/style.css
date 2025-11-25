@@ -1,0 +1,61 @@
+/* Global styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7fc;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  padding-top: 40px;
+  text-align: center;
+}
+
+/* Main Heading */
+.heading {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #0a66c2;
+}
+
+/* Greeting text */
+.greeting {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+/* User cards container */
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Card */
+.user-card {
+  background: white;
+  width: 260px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Avatar */
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
